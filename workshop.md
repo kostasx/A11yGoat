@@ -14,6 +14,20 @@ title: Workshop
  * headphones
  * download [ChromeVox](http://www.chromevox.com/) (and Chrome)
 
+## Launching the web server
+
+```bash
+bundle exec jekyll serve
+```
+
+If you get the following message `Could not locate Gemfile or .bundle/ directory` try running the commands below:
+
+```bash
+bundle init
+bundle add jekyll
+bundle exec jekyll serve
+```
+
 ## ChromeVox Interactive Tutorial
 
 ChromeVox is a browser based screen reader. It does not function outside of the [Chrome] browser, but 99% of the time it will function the same as a full-fledged screen reader (JAWS, VoiceOver, NVDA). What this allows is a controllable environment where you can experience the web in a way you’re not accustomed to. It can help put you in the mindset of why some of the accessibility topics are important. It’s recommended you go through the tutorial completely. But feel free to move on if you think you’ve gotten the hang of it. [Interactive Tutorial](http://www.chromevox.com/tutorial/index.html)
